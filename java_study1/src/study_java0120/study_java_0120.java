@@ -39,12 +39,13 @@ public class study_java_0120 {
 		 */
 		
 		// Scanner 변수이름 = new Scanner(System. in)
-		Scanner 변수이름 = new Scanner(System. in)
+		Scanner input = new Scanner(System. in);
 		
 		// num 이라는 변수에 정수 데이터 입력하여 저장하기
 		// nextInt()거 정수 데이터 입력 하기 위한 메서드이다.
-		int num = input.nextInt()
-				
+		System.out.print("정수 입력 : ");
+		int num = input.nextInt();
+		System.out.println("입력 잘되었나? : " + num);		
 				
 		
 		int oneAppleBox = 20;
@@ -58,7 +59,7 @@ public class study_java_0120 {
 		
 		
 		
-		
+	
 			}
 
 }

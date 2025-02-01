@@ -30,7 +30,7 @@ public class java_hw_0131 {
 		int twoHourCost = 1700; //2시간 기본 요금
 		int fourHourCost = 2500; //4시간 기본요금
 		int eightHourCost = 10000; // 8시간 이상 기본요금
-		int parkingCost = 0;
+		int parkingCost = 0; // 주차요금	
 		
 		if (pHour == 0 && pMinute == 0) {
 			parkingCost = 0;

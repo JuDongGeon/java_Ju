@@ -30,6 +30,8 @@ public class study02_0210 {
 		age [0] = 10;
 		System.out.println(age[0]);
 		
+
+		
 	}
 
 }

@@ -10,12 +10,23 @@ public class java_hw_0210 {
 		 * 중복 상관없음
 		 */
 		
+		int [] number = new int [15];
+		int count = 0;
+
+		while (count < 15){
+			int a = (int)(Math.random()*50+1);
+			
+			if (a%2 == 0) {
+				number[count] = a;
+				count++ ;
+			}
+			
+		}
 		
-		int [] evenNumber = new int [15];
-		
-		do { 
-		
+		for (int i = 0; i < number.length; i++) {
+			System.out.println(number[i]);
+		}
+
 		
 	}
-
 }

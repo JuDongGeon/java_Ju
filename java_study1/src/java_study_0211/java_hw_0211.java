@@ -1,5 +1,6 @@
 package java_study_0211;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class java_hw_0211 {
@@ -16,34 +17,9 @@ public class java_hw_0211 {
 		Scanner sc = new Scanner(System.in);
 		
 		int [] bingo = new int [25]; // 빙고 배열
-		
-		for (int i = 0; i < bingo.length; i++) {
-			int num = (int)(Math.random()*50+1);
-			boolean isSame = false;
-		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		// 시간이 남으면 컴퓨터와 함께하는 2인용 제작
-		
-		
+		int index = 0;
+
+
 	}
 
 }

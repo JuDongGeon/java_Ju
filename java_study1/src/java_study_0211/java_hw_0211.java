@@ -19,7 +19,12 @@ public class java_hw_0211 {
 		int [] bingo = new int [25]; // 빙고 배열
 		int index = 0;
 
-
+		int num = (int)(Math.random()*50+1);
+		boolean isSame = false;
+		
+		for (int i = 0; i < bingo.length; i++) {
+			
+		}
 	}
 
 }

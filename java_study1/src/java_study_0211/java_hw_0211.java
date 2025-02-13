@@ -16,21 +16,20 @@ public class java_hw_0211 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int [][] bingo = new int [5][5]; // 빙고 배열
-
-		for (int i = 0; i < bingo.length; i++) {
-			for (int k = 0; k < bingo[i].length; k++) {
-				int num = (int)(Math.random()*50+1);
-				boolean isSame = false;
-				if(num == bingo[i][k]) {
-						isSame = true;
-				}
-				if (!isSame) {
-					
-				}
-			}
-		}
+		int [] bingo = new int [25]; // 빙고 배열
+		int num = (int)(Math.random()*50+1);
 		
+		for(int i = 0; i <= 4; i++) {//빙고판 출력
+			for (int k = 0; k <= 4; k++) {
+				if(bingo[i*5+k] == 0)
+					System.out.printf(" %2s ", "■");
+				else
+				System.out.printf(" %2d ", bingo[i*5+k]);
+			}
+			System.out.println();
+		}
+
+
 	}
 
 }

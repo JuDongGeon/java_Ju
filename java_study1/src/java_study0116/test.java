@@ -3,6 +3,7 @@ package java_study0116;
 public class test {
 
 	public static void main(String[] args) {
+		// 자바 기본설명  
 		
 		//25.01.16 
 		// 한줄 주석 - 설명이나 메모, 코드 대기 등등 

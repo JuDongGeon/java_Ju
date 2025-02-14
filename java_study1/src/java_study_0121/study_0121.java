@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class study_0121 {
 
 	public static void main(String[] args) {
-		
+		// 과제풀이 및 반복
 		
 		
 		/* 250120 과제 해설

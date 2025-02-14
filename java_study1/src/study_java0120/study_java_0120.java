@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class study_java_0120 {
 
 	public static void main(String[] args) {
+		// 변수 선언 및 과제 풀이  
+		
 		
 		//250117 과제 풀이
 		int 한개피단축 = 2;

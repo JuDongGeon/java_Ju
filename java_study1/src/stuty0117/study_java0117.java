@@ -3,6 +3,8 @@ package stuty0117;
 public class study_java0117 {
 
 	public static void main(String[] args) {
+		// 형변화 개념
+		
 		
 		int num = 20;
 		float pi = 3.14f;

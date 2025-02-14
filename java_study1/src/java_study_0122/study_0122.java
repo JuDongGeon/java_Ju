@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class study_0122 {
 
 	public static void main(String[] args) {
-		
+		// 연산자 우선순위와 활용(사칙,복합)
 		
 		int num = 20; // 대입 연산자에 의해 오른쪽 값을 왼쪽 변수에 저장
 		num = 20 + 3 + 1*10; // +, * 연산후 대입 연산 실행

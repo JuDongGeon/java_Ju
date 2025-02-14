@@ -3,6 +3,7 @@ package java_study_0121;
 public class study3_0121 {
 
 	public static void main(String[] args) {
+		// 출력방법 설명 및 형식 지정자
 		
 		// System.out.println();-> 한줄에 하나씩 출력
 		// System.out.print(); -> 한줄에 이어서 출력 한개가 더 있으면 그다음에 이어서 출력

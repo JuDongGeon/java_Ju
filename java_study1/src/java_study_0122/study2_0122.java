@@ -3,7 +3,7 @@ package java_study_0122;
 public class study2_0122 {
 
 	public static void main(String[] args) {
-		
+		// 연산자 활용 2(증감)
 		
 		// 증감 연산자 ++, --
 		int a = 10, b = 10, result = 0;

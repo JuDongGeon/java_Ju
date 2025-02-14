@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class study_0123 {
 
 	public static void main(String[] args) {
-		
+		// 연산자 재정리 및 활용
 		
 		// 사칙연산자 : +, -, *, /, %
 		// 복합연산자 : +=, -=, *=, /=, %=

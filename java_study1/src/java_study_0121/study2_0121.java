@@ -6,7 +6,7 @@ public class study2_0121 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		
+		// Scanner 사용
 		
 		// 만 나이 입력
 		int age = 0;

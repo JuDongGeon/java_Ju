@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class study3_0122 {
 
 	public static void main(String[] args) {
-
+		// 연산자 활용3(비교, 논리)
 		
 		// 비교 연산자 - 두 개 데이터를 비교하여 참, 거짓 결과
 

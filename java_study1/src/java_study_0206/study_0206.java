@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class study_0206 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// for, while(반복)문 활용
 		
 		
 		Scanner sc = new Scanner(System.in);

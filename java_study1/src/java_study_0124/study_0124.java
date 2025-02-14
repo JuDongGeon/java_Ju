@@ -3,7 +3,7 @@ package java_study_0124;
 public class study_0124 {
 
 	public static void main(String[] args) {
-		
+		// if 문 사용
 		
 		
 		// 바이킹 탑승 - 키가 140이상만 탑승

@@ -1,5 +1,7 @@
 package java_study_0214;
 
+import java.util.Arrays;
+
 public class study_0214 {
 
 	public static void main(String[] args) {
@@ -10,9 +12,12 @@ public class study_0214 {
 		
 		String srt = new String ("member");
 		char[]c = new char[] {'a'};
+		System.out.println(srt);
+		System.out.println(c);
 		
 		String []names = new String [5];
-		
+		names[0] = new String ("박문수");
+		System.out.println(Arrays.toString(names));
 		
 		
 				

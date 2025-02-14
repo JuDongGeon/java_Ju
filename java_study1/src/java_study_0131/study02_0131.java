@@ -8,6 +8,8 @@ public class study02_0131 {
 		// TODO Auto-generated method stub
 
 		Scanner min = new Scanner(System.in);
+		// if 문제 풀이
+		
 		
 		// 문제 1.
 		// 주차장 기본요금이 1000원이고 기본 시간은 30분이다.

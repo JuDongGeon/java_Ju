@@ -31,14 +31,50 @@ public class study_0214 {
 		System.out.println(Arrays.toString(names));	
 
 		// 이름이 있는지 조회
-		boolean hasName = false;
+//		boolean hasName = false;
+//		
+//		for(String name : names) {
+//			if (name.equals("주동건")) {
+//				hasName = true;
+//				}
+//		}
+//		if (hasName)
+//			System.out.println("이름이 등록되어 있습니다.");
+//		else 
+//			System.out.println("이름이 존재하지 않습니다.");
+
+		//배열 -> 문자열
+		String temp = String.join("-", names);
+		System.out.println(temp);
+		boolean hasName = temp.contains("서경림");
+		if (hasName)
+			System.out.println("이름이 등록되어 있습니다.");
+		else 
+			System.out.println("이름이 존재하지 않습니다.");
 		
-		for(String name : names) {
-			if (name.equals("주동건")) {
-				hasName = true;
+		// 학과명, 조교, 전화, 위치
+		String [][]dept = new String [4][];
+		dept[0] = new String[]{"컴퓨터공학과", "정보과학과", "정보통신공학과",	"정보산업공학과","전자공학과","문헌정보학과","전기공학과"	};
+		dept[1] = new String[]{"이지은", "김영미", "박순애", "이춘애","이미선","김기범","박준용"};
+		dept[2] = new String[]{"3333", "3334", "3335", "3336","3337","3338","3339"};
+		dept[3] = new String[]{"T101", "T201","T301", "T401","T501","T601","7101"};
+		
+		
+		// 정보통신공학과의 과사무실 위치와 조교 이름음?
+		
+		String search = "정보통신공학과";
+		int idx = -1;
+		for(int k = 0; k < dept[0].length; k++) {
+				if(dept[0][k].equals(search)) {
+					idx =k; break;
+				}
 			}
-			if(hasName = )
+		if(idx == -1) {// 학과가 존재하지않는다면?
+			System.out.println("등록이 되지않은 학과입니다.");
+			return; // return은 매서드를 종료 시킨다. main매서드 종료 프로그램끝
 		}
+		
+		System.out.println("조교 :" + dept[1][idx] + ", 사무실 : " +dept[3][idx]);
 		
 	}
 

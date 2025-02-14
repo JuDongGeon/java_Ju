@@ -4,7 +4,7 @@ public class study03_0210 {
 
 	public static void main(String[] args) {
 		
-		// TODO Auto-generated method stub
+		// 1차 배열 및 String 클래스 설명
 //		int [] sum = new int[3];
 //		int [] a = new int [] {10,20,30};
 //		int [] b = new int [] {1,5,9};

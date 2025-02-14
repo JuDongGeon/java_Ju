@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class study02_0210 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// 1차 배열 조회
 
 		Scanner sc = new Scanner(System.in);
 		

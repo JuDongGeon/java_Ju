@@ -3,6 +3,8 @@ package java_study_0210;
 public class study04_0210 {
 
 	public static void main(String[] args) {
+		// 배열 비교
+		
 		
 		//숫자 배열 비교
 		int [] a = new int [] {11, 20, 55};

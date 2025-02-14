@@ -17,7 +17,13 @@ public class study_0214 {
 		
 		String []names = new String [5];
 		names[0] = new String ("박문수");
+		names[1] = "김정호";
+		names[2] = "서경림";
+		names[3] = "김명준";
+		names[4] = "이정훈";
 		System.out.println(Arrays.toString(names));
+		
+	
 		
 		
 				

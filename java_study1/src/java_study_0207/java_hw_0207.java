@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class java_hw_0207 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 //	  	오늘의 과제 - 숫자 야구
 //	  	 1~9 중의 임의의 숫자 3개를 뽑아낸다. (중복없이)
 //	  	 3개의 숫자를 맞추기 해야한다.

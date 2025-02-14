@@ -6,7 +6,7 @@ import java.util.Collections;
 public class study_0211 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// 배열비교 매서드
 		
 		int [] number = new int [] {10, 20, 30, 44, 55, 66, 100, 2323};
 

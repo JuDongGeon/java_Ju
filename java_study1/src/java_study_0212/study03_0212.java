@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class study03_0212 {
 
 	public static void main(String[] args) {
-		
+		// 2차배열응용
 		
 		Scanner input = new Scanner(System.in);
 		

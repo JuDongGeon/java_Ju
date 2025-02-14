@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class study_0213 {
 
 	public static void main(String[] args) {
+		// Scan(nextLine 심화설명)
+		
 		String title = "자바는 즐거워";
 		
 		Scanner scan = new Scanner(System.in);

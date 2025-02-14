@@ -4,7 +4,7 @@ public class study02_0212 {
 
 	public static void main(String[] args) {
 		
-		
+		// 2차 배열 수업
 		
 		int[][] board = new int [5][3];
 		

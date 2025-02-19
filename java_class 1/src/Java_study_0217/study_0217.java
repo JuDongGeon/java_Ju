@@ -27,12 +27,12 @@ public class study_0217 {
 // 기본데이터 타입으로 선언한 변수는 데이터 저장이 직접 가능 => ex) int num = 10;
 // 참조변수에는 메모리주소 저장한다.
 // 그래서 자바에서는 new 연산자를 통해서 공간을 할당받아 해당 공간에 주소를 저장한다.
-		Member1 member = new Member1();
-		member. = "김유신";
+
+		Member member = new Member();
 		member.age = 30;
-		System.out.println(member.name);
+		System.out.println(member.age);
 		
-		Member1 my  = new Member1(); // 인스턴스 생성(객체생성)
+		Member my  = new Member(); // 인스턴스 생성(객체생성)
 		my.name = "박문수";
 		my.age =25;
 		
@@ -73,13 +73,13 @@ public class study_0217 {
   	 - css 의 class 명, web url 에 사용됨  	  
  */
 
-
-
 class Member { // 클래스 정의 - 클래스안의 내용으로 데이터 저장될 수 있게 정의만 한것
 	String name; //이름 저장
 	int age; // 나이 저장 
 	float eyes; // 시력 저장
 }
+
+
 
 class Animal { // 동물 정보 저장 클래스
 	String type; // 동물 종류

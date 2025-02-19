@@ -1,6 +1,6 @@
 package Java_study_0218;
 
-public class study_0218 {
+public class ClassArray {
 
 	public static void main(String[] args) {
 		// ClassArray

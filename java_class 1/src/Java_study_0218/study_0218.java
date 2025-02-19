@@ -35,6 +35,17 @@ public class study_0218 {
 
 		Member info = new Member();
 		
+		Movie movie1 = new Movie();
+		
+		movie1.title = "위키드";
+		movie1.release = 2024;
+		movie1.genre = "뮤지컬";
+		movie1.view = 1000000;
+		
+		System.out.println("영화 제목 : " + movie1.title);
+		System.out.println("영화 장르 : " + movie1.genre);
+		System.out.println("관객수 : " + movie1.view);
+		System.out.println("개봉 연도 : " + movie1.release + "년");
 	}
 
 }

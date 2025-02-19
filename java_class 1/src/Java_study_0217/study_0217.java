@@ -1,4 +1,4 @@
-package java_study_0217;
+package Java_study_0217;
 
 public class study_0217 {
 

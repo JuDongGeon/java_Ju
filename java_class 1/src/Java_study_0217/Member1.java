@@ -1,6 +1,6 @@
 package Java_study_0217;
 
-public class Member {
+public class Member1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

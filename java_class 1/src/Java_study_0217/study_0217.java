@@ -27,12 +27,12 @@ public class study_0217 {
 // 기본데이터 타입으로 선언한 변수는 데이터 저장이 직접 가능 => ex) int num = 10;
 // 참조변수에는 메모리주소 저장한다.
 // 그래서 자바에서는 new 연산자를 통해서 공간을 할당받아 해당 공간에 주소를 저장한다.
-		Member member = new Member();
-		member.name = "김유신";
+		Member1 member = new Member1();
+		member. = "김유신";
 		member.age = 30;
 		System.out.println(member.name);
 		
-		Member my  = new Member(); // 인스턴스 생성(객체생성)
+		Member1 my  = new Member1(); // 인스턴스 생성(객체생성)
 		my.name = "박문수";
 		my.age =25;
 		

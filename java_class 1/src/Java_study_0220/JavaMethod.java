@@ -1,4 +1,4 @@
-package Java_study_0220;
+                     package Java_study_0220;
 
 public class JavaMethod {
 

@@ -5,15 +5,13 @@ public class JavaUnherit1 {
 	public static void main(String[] args) {
 		// 상속
 		
-		Tv tv = new Tv();
+		Tv tv = new Tv("삼성",9500000, "st60");
+		Aircon air = new Aircon("캐리어", 542000,"cal18t");
+		Computer com = new Computer ("삼성",1730000,"매직스테이션10");
 		
-//		tv.onOff = true; // 전원 on
-		tv.power(); // 전원 on true
-		tv.power(); // 전원 off false
-		tv.brand = "삼성";
-		tv.price = 12000000;
-		tv.name = "QLED 70인치 삼성 TV";
-		
+		tv.power();
+		air.power();
+		com.power();
 		
 
 	}
@@ -28,6 +26,7 @@ public class JavaUnherit1 {
  * 메서드 : ____,_____,_____
  * 자식클래스 : ooo, ooo, ooo
 */
+
 
 
 

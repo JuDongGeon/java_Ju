@@ -26,7 +26,7 @@ public class study02_0212 {
 			}
 			
 			System.out.println();
-		} 
+		}  
 				
 	}
 

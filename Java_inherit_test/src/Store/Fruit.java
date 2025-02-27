@@ -14,5 +14,22 @@ public abstract class Fruit {// 부모클래스=> 추상츨래스
 	public abstract void makeJuice(); //과일 주스 만들기
 	public abstract void pieceFruit(); // 컵단위 과일
 	
+	public int getCost() {
+		return cost;
+	}
+	
+	public void setCost(int cost) {
+		this.cost = cost;
+	}
+	
+	public int getCapacity() {
+		return capacity;
+	}
+	
+	public void setCapacity(int capacity) {
+		this.capacity = capacity;
+	}
+	
 
+	
 }

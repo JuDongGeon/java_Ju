@@ -18,6 +18,6 @@ public class Banana extends Fruit {
 	
 	@Override
 	public String toString() {
-		return("바나나" + cost +"원 " + capacity + "ml");
+		return("바나나 " + cost +"원 " + capacity + "ml");
 	}
 }
